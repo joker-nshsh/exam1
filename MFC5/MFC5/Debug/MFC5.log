@@ -1,0 +1,18 @@
+﻿生成启动时间为 2020/3/30 16:11:34。
+     1>项目“c:\Users\86130\documents\visual studio 2013\Projects\MFC5\MFC5\MFC5.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFC5.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MFC5View.cpp
+         MFC5View.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\86130\documents\visual studio 2013\Projects\MFC5\Debug\MFC5.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"c:\users\86130\documents\visual studio 2013\Projects\MFC5\Debug\MFC5.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\86130\documents\visual studio 2013\Projects\MFC5\Debug\MFC5.lib" /MACHINE:X86 Debug\MFC5.res
+         Debug\MainFrm.obj
+         Debug\MFC5.obj
+         Debug\MFC5Doc.obj
+         Debug\MFC5View.obj
+         Debug\stdafx.obj
+         MFC5.vcxproj -> c:\users\86130\documents\visual studio 2013\Projects\MFC5\Debug\MFC5.exe
+     1>已完成生成项目“c:\Users\86130\documents\visual studio 2013\Projects\MFC5\MFC5\MFC5.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.89
