@@ -27,6 +27,7 @@ BEGIN_MESSAGE_MAP(CWin32Project2View, CView)
 	ON_COMMAND(ID_FILE_PRINT_DIRECT, &CView::OnFilePrint)
 	ON_COMMAND(ID_FILE_PRINT_PREVIEW, &CView::OnFilePrintPreview)
 	ON_WM_TIMER()
+	ON_COMMAND(ID_huayuan, &CWin32Project2View::Onhuayuan)
 END_MESSAGE_MAP()
 
 // CWin32Project2View 构造/析构
@@ -37,12 +38,17 @@ CWin32Project2View::CWin32Project2View()
 	set = true;
 	N = 5;
 	j = 1;
-	for (int i = 0; i < N; i++)
+	/*for (int i = 0; i < N; i++)
 	{
 		int t = (i + 1) * 100;
-		CRect rect(t, 0, t + 40,40);
+		CRect rect(t, 0, t+40, 40);
 		cr.Add(rect);
-	}
+	}*/
+	rc.top = 0; rc.left = 0; rc.right =0; rc.bottom = 0;
+	dc.top = 0; dc.left = 0; dc.right = 0; dc.bottom = 0;
+	red = 255; green = 0; blue = 0;
+	
+	
 }
 
 CWin32Project2View::~CWin32Project2View()
@@ -65,21 +71,16 @@ void CWin32Project2View::OnDraw(CDC* pDC)
 	ASSERT_VALID(pDoc);
 	if (!pDoc)
 		return;
-	if (set)
-	{
-		for (int i = 0; i < N; i++)
-		{ 
-			SetTimer(i, rand() % 400 + 100, NULL);
-			set = false;
-		}
-		
-	}
-	// TODO:  在此处为本机数据添加绘制代码
-	for (int i = 0; i < N; i++)
-	{
-		pDC->Ellipse(cr[0]);
+	
+	CPen cPen;
+	cPen.CreatePen(PS_SOLID, 1,RGB(red,green,blue));
 
-	}
+	CPen* oldpen = pDC->SelectObject(&cPen);
+
+		pDC->Ellipse(rc);
+		pDC->SelectObject(oldpen);
+
+	
 }
 
 
@@ -131,32 +132,56 @@ void CWin32Project2View::OnTimer(UINT_PTR nIDEvent)
 	// TODO:  在此添加消息处理程序代码和/或调用默认值
 	int i = nIDEvent;
 	CClientDC clientDC(this);
-	GetClientRect(&rc);
+	//GetClientRect(&rc);
 	int s1 = GetSystemMetrics(SM_CXSCREEN);
 	CString s;
-	int x = rc.Height();
-	s.Format(_T("%d"),x);
-	//clientDC.TextOut(50,50,s);
-	int s2 = GetSystemMetrics(SM_CYSCREEN);
-	if (j == 1)
-	{
-		cr[i].top += 10;
-		cr[i].bottom += 10;
-		Invalidate();
-	}
-	if (cr[i].bottom >= x)
-	{
-		j = 0;
-	}
-	if (j == 0)
-	{
-		cr[i].top -= 20;
-		cr[i].bottom -= 20;
-		Invalidate();
-	}
+	int x = dc.Height();
 	
+	
+	int s2 = GetSystemMetrics(SM_CYSCREEN);
+	if (rc.bottom < x)
+	{
+		rc.top = rc.top - 10; rc.left = rc.left-10; rc.right = rc.right + 10; rc.bottom = rc.bottom + 10;
+		
+		if (red>0)
+		{
+			red -= 30;
+			green += 30;
+
+		}
+		if (green >= 255)
+		{
+			green -= 30;
+			blue += 30;
+		}
+		Invalidate();
+	}
 
 	
 	
 	CView::OnTimer(nIDEvent);
+}
+
+
+void CWin32Project2View::Onhuayuan()
+{
+	// TODO:  在此添加命令处理程序代码
+	N = 5;
+	j = 1;
+	if (set)
+	{
+		for (int i = 0; i < N; i++)
+		{
+			SetTimer(i, rand() % 400 + 300, NULL);
+			set = false;
+		}
+
+	}
+	GetClientRect(&dc);
+	// TODO:  在此处为本机数据添加绘制代码
+	rc.top = dc.bottom / 2 - 30; rc.left = dc.right / 2 - 30; rc.right = dc.right / 2 + 30; rc.bottom = dc.bottom / 2 + 30;
+		
+		Invalidate();
+	
+
 }

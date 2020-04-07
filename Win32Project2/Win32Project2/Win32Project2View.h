@@ -22,6 +22,8 @@ public:
 	bool set;
 	int j;
 	CRect rc;
+	CRect dc;
+	int red , green , blue ;
 // 重写
 public:
 	virtual void OnDraw(CDC* pDC);  // 重写以绘制该视图
@@ -46,6 +48,7 @@ protected:
 	DECLARE_MESSAGE_MAP()
 public:
 	afx_msg void OnTimer(UINT_PTR nIDEvent);
+	afx_msg void Onhuayuan();
 };
 
 #ifndef _DEBUG  // Win32Project2View.cpp 中的调试版本
