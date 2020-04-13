@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFC7", "MFC7\MFC7.vcxproj", "{BDB092A1-9C76-45FF-A18E-23A363C8DDAE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFC0", "MFC0\MFC0.vcxproj", "{74AEA529-E6F8-43AF-8EC0-2DD3B811924A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDB092A1-9C76-45FF-A18E-23A363C8DDAE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BDB092A1-9C76-45FF-A18E-23A363C8DDAE}.Debug|Win32.Build.0 = Debug|Win32
+		{BDB092A1-9C76-45FF-A18E-23A363C8DDAE}.Release|Win32.ActiveCfg = Release|Win32
+		{BDB092A1-9C76-45FF-A18E-23A363C8DDAE}.Release|Win32.Build.0 = Release|Win32
+		{74AEA529-E6F8-43AF-8EC0-2DD3B811924A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{74AEA529-E6F8-43AF-8EC0-2DD3B811924A}.Debug|Win32.Build.0 = Debug|Win32
+		{74AEA529-E6F8-43AF-8EC0-2DD3B811924A}.Release|Win32.ActiveCfg = Release|Win32
+		{74AEA529-E6F8-43AF-8EC0-2DD3B811924A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
