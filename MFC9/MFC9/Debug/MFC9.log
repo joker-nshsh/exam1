@@ -1,0 +1,28 @@
+﻿生成启动时间为 2020/5/9 16:56:14。
+     1>项目“c:\Users\86130\documents\visual studio 2013\Projects\MFC9\MFC9\MFC9.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MFC9.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFC9.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MainFrm.cpp MFC9.cpp MFC9Doc.cpp MFC9View.cpp
+         MFC9View.cpp
+     1>c:\users\86130\documents\visual studio 2013\projects\mfc9\mfc9\mfc9view.cpp(38): warning C4101: “a1”: 未引用的局部变量
+     1>c:\users\86130\documents\visual studio 2013\projects\mfc9\mfc9\mfc9view.cpp(38): warning C4101: “a2”: 未引用的局部变量
+         MFC9Doc.cpp
+         MFC9.cpp
+         MainFrm.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\MFC9.res" MFC9.rc 
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\86130\documents\visual studio 2013\Projects\MFC9\Debug\MFC9.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"c:\users\86130\documents\visual studio 2013\Projects\MFC9\Debug\MFC9.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\86130\documents\visual studio 2013\Projects\MFC9\Debug\MFC9.lib" /MACHINE:X86 Debug\MFC9.res
+         Debug\MainFrm.obj
+         Debug\MFC9.obj
+         Debug\MFC9Doc.obj
+         Debug\MFC9View.obj
+         Debug\stdafx.obj
+         MFC9.vcxproj -> c:\users\86130\documents\visual studio 2013\Projects\MFC9\Debug\MFC9.exe
+     1>已完成生成项目“c:\Users\86130\documents\visual studio 2013\Projects\MFC9\MFC9\MFC9.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.16
