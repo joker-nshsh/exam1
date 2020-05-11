@@ -1,0 +1,18 @@
+﻿生成启动时间为 2020/5/10 18:06:59。
+     1>项目“c:\Users\86130\documents\visual studio 2013\Projects\MFC13\MFC13\MFC13.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFC13.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MFC13View.cpp
+         MFC13View.cpp
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\86130\documents\visual studio 2013\Projects\MFC13\Debug\MFC13.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"c:\users\86130\documents\visual studio 2013\Projects\MFC13\Debug\MFC13.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\86130\documents\visual studio 2013\Projects\MFC13\Debug\MFC13.lib" /MACHINE:X86 Debug\MFC13.res
+         Debug\MainFrm.obj
+         Debug\MFC13.obj
+         Debug\MFC13Doc.obj
+         Debug\MFC13View.obj
+         Debug\stdafx.obj
+         MFC13.vcxproj -> c:\users\86130\documents\visual studio 2013\Projects\MFC13\Debug\MFC13.exe
+     1>已完成生成项目“c:\Users\86130\documents\visual studio 2013\Projects\MFC13\MFC13\MFC13.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.88
