@@ -1,0 +1,21 @@
+﻿生成启动时间为 2020/6/8 20:13:35。
+     1>项目“c:\Users\86130\documents\visual studio 2013\Projects\MFC21\MFC21\MFC21.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFC21.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MFC21.cpp MFC21View.cpp
+         MFC21View.cpp
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         MFC21.cpp
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\86130\documents\visual studio 2013\Projects\MFC21\Debug\MFC21.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"c:\users\86130\documents\visual studio 2013\Projects\MFC21\Debug\MFC21.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\86130\documents\visual studio 2013\Projects\MFC21\Debug\MFC21.lib" /MACHINE:X86 Debug\MFC21.res
+         Debug\MainFrm.obj
+         Debug\MFC21.obj
+         Debug\MFC21Doc.obj
+         Debug\MFC21View.obj
+         Debug\stdafx.obj
+         MFC21.vcxproj -> c:\users\86130\documents\visual studio 2013\Projects\MFC21\Debug\MFC21.exe
+     1>已完成生成项目“c:\Users\86130\documents\visual studio 2013\Projects\MFC21\MFC21\MFC21.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.91
