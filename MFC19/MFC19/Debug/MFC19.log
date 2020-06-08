@@ -1,19 +1,28 @@
-﻿生成启动时间为 2020/5/25 17:07:50。
-     1>项目“c:\Users\86130\documents\visual studio 2013\Projects\MFC19\MFC19\MFC19.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2020/6/8 19:19:03。
+     1>项目“D:\MyProject\MFC19\MFC19\MFC19.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFC19.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MyDlgo.cpp
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MFC19.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFC19.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MainFrm.cpp MFC19.cpp MFC19Doc.cpp MFC19View.cpp MyDlgo.cpp
          MyDlgo.cpp
+         MFC19View.cpp
+         MFC19Doc.cpp
+         MFC19.cpp
+         MainFrm.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\MFC19.res" MFC19.rc 
        Link:
-         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\86130\documents\visual studio 2013\Projects\MFC19\Debug\MFC19.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"c:\users\86130\documents\visual studio 2013\Projects\MFC19\Debug\MFC19.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\86130\documents\visual studio 2013\Projects\MFC19\Debug\MFC19.lib" /MACHINE:X86 Debug\MFC19.res
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MyProject\MFC19\Debug\MFC19.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"D:\MyProject\MFC19\Debug\MFC19.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MyProject\MFC19\Debug\MFC19.lib" /MACHINE:X86 Debug\MFC19.res
          Debug\MainFrm.obj
          Debug\MFC19.obj
          Debug\MFC19Doc.obj
          Debug\MFC19View.obj
          Debug\MyDlgo.obj
          Debug\stdafx.obj
-         MFC19.vcxproj -> c:\users\86130\documents\visual studio 2013\Projects\MFC19\Debug\MFC19.exe
-     1>已完成生成项目“c:\Users\86130\documents\visual studio 2013\Projects\MFC19\MFC19\MFC19.vcxproj”(Build 个目标)的操作。
+         MFC19.vcxproj -> D:\MyProject\MFC19\Debug\MFC19.exe
+     1>已完成生成项目“D:\MyProject\MFC19\MFC19\MFC19.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.25
+已用时间 00:00:13.92
