@@ -1,0 +1,18 @@
+﻿生成启动时间为 2020/6/20 18:36:21。
+     1>项目“C:\Users\86130\Documents\Visual Studio 2013\Projects\MF25\MF25\MF25.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MF25.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MF25View.cpp
+         MF25View.cpp
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\86130\Documents\Visual Studio 2013\Projects\MF25\Debug\MF25.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"C:\Users\86130\Documents\Visual Studio 2013\Projects\MF25\Debug\MF25.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\86130\Documents\Visual Studio 2013\Projects\MF25\Debug\MF25.lib" /MACHINE:X86 Debug\MF25.res
+         Debug\MainFrm.obj
+         Debug\MF25.obj
+         Debug\MF25Doc.obj
+         Debug\MF25View.obj
+         Debug\stdafx.obj
+         MF25.vcxproj -> C:\Users\86130\Documents\Visual Studio 2013\Projects\MF25\Debug\MF25.exe
+     1>已完成生成项目“C:\Users\86130\Documents\Visual Studio 2013\Projects\MF25\MF25\MF25.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.97
