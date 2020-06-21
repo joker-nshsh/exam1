@@ -1,0 +1,17 @@
+﻿生成启动时间为 2020/6/20 17:26:31。
+     1>项目“c:\Users\86130\documents\visual studio 2013\Projects\MF23\MF23\MF23.vcxproj”在节点 2 上(Build 个目标)。
+     1>ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\MF23.res" MF23.rc 
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\86130\documents\visual studio 2013\Projects\MF23\Debug\MF23.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"c:\users\86130\documents\visual studio 2013\Projects\MF23\Debug\MF23.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\86130\documents\visual studio 2013\Projects\MF23\Debug\MF23.lib" /MACHINE:X86 Debug\MF23.res
+         Debug\MainFrm.obj
+         Debug\MF23.obj
+         Debug\MF23Doc.obj
+         Debug\MF23View.obj
+         Debug\stdafx.obj
+         MF23.vcxproj -> c:\users\86130\documents\visual studio 2013\Projects\MF23\Debug\MF23.exe
+     1>已完成生成项目“c:\Users\86130\documents\visual studio 2013\Projects\MF23\MF23\MF23.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.81
