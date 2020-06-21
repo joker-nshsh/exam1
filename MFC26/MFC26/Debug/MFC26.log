@@ -1,0 +1,19 @@
+﻿生成启动时间为 2020/6/20 18:48:49。
+     1>项目“C:\Users\86130\documents\visual studio 2013\Projects\MFC26\MFC26\MFC26.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFC26.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MFC26View.cpp
+         MFC26View.cpp
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\86130\documents\visual studio 2013\Projects\MFC26\Debug\MFC26.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"C:\Users\86130\documents\visual studio 2013\Projects\MFC26\Debug\MFC26.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\86130\documents\visual studio 2013\Projects\MFC26\Debug\MFC26.lib" /MACHINE:X86 Debug\MFC26.res
+         Debug\MainFrm.obj
+         Debug\MFC26.obj
+         Debug\MFC26Doc.obj
+         Debug\MFC26View.obj
+         Debug\MyDlg0.obj
+         Debug\stdafx.obj
+         MFC26.vcxproj -> C:\Users\86130\documents\visual studio 2013\Projects\MFC26\Debug\MFC26.exe
+     1>已完成生成项目“C:\Users\86130\documents\visual studio 2013\Projects\MFC26\MFC26\MFC26.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.01
