@@ -1,0 +1,25 @@
+﻿生成启动时间为 2020/6/20 16:56:19。
+     1>项目“c:\Users\86130\documents\visual studio 2013\Projects\MF22\MF22\MF22.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MF22.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MF22View.cpp MyDlg0.cpp
+         MyDlg0.cpp
+     1>c:\users\86130\documents\visual studio 2013\projects\mf22\mf22\mydlg0.cpp(103): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+         正在生成代码...
+         正在编译...
+         MF22View.cpp
+     1>c:\users\86130\documents\visual studio 2013\projects\mf22\mf22\mf22view.cpp(118): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         正在生成代码...
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\86130\documents\visual studio 2013\Projects\MF22\Debug\MF22.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"c:\users\86130\documents\visual studio 2013\Projects\MF22\Debug\MF22.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\86130\documents\visual studio 2013\Projects\MF22\Debug\MF22.lib" /MACHINE:X86 Debug\MF22.res
+         Debug\MainFrm.obj
+         Debug\MF22.obj
+         Debug\MF22Doc.obj
+         Debug\MF22View.obj
+         Debug\MyDlg0.obj
+         Debug\stdafx.obj
+         MF22.vcxproj -> c:\users\86130\documents\visual studio 2013\Projects\MF22\Debug\MF22.exe
+     1>已完成生成项目“c:\Users\86130\documents\visual studio 2013\Projects\MF22\MF22\MF22.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.02
