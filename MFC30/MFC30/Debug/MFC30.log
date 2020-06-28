@@ -1,0 +1,28 @@
+﻿生成启动时间为 2020/6/28 20:18:29。
+     1>项目“C:\Users\86130\documents\visual studio 2013\Projects\MFC30\MFC30\MFC30.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MFC30.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFC30.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Dlg1.cpp MainFrm.cpp MFC30.cpp MFC30Doc.cpp MFC30View.cpp
+         MFC30View.cpp
+         MFC30Doc.cpp
+         MFC30.cpp
+         MainFrm.cpp
+         Dlg1.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\MFC30.res" MFC30.rc 
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\86130\documents\visual studio 2013\Projects\MFC30\Debug\MFC30.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"C:\Users\86130\documents\visual studio 2013\Projects\MFC30\Debug\MFC30.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\86130\documents\visual studio 2013\Projects\MFC30\Debug\MFC30.lib" /MACHINE:X86 Debug\MFC30.res
+         Debug\Dlg1.obj
+         Debug\MainFrm.obj
+         Debug\MFC30.obj
+         Debug\MFC30Doc.obj
+         Debug\MFC30View.obj
+         Debug\stdafx.obj
+         MFC30.vcxproj -> C:\Users\86130\documents\visual studio 2013\Projects\MFC30\Debug\MFC30.exe
+     1>已完成生成项目“C:\Users\86130\documents\visual studio 2013\Projects\MFC30\MFC30\MFC30.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.41
