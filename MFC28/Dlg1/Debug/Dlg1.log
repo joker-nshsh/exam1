@@ -1,0 +1,23 @@
+﻿生成启动时间为 2020/6/24 20:23:00。
+     1>项目“c:\Users\86130\documents\visual studio 2013\Projects\MFC28\Dlg1\Dlg1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Dlg1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Dlg1.cpp Dlg1Dlg.cpp
+         Dlg1Dlg.cpp
+     1>c:\users\86130\documents\visual studio 2013\projects\mfc28\dlg1\dlg1dlg.cpp(157): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\86130\documents\visual studio 2013\projects\mfc28\dlg1\dlg1dlg.cpp(158): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\86130\documents\visual studio 2013\projects\mfc28\dlg1\dlg1dlg.cpp(162): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\86130\documents\visual studio 2013\projects\mfc28\dlg1\dlg1dlg.cpp(169): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         Dlg1.cpp
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\86130\documents\visual studio 2013\Projects\MFC28\Debug\Dlg1.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"c:\Users\86130\documents\visual studio 2013\Projects\MFC28\Debug\Dlg1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\Users\86130\documents\visual studio 2013\Projects\MFC28\Debug\Dlg1.lib" /MACHINE:X86 Debug\Dlg1.res
+         Debug\Dlg1.obj
+         Debug\Dlg1Dlg.obj
+         Debug\stdafx.obj
+         Dlg1.vcxproj -> c:\Users\86130\documents\visual studio 2013\Projects\MFC28\Debug\Dlg1.exe
+     1>已完成生成项目“c:\Users\86130\documents\visual studio 2013\Projects\MFC28\Dlg1\Dlg1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.00
