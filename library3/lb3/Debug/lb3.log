@@ -1,0 +1,15 @@
+﻿生成启动时间为 2020/6/29 10:15:52。
+     1>项目“c:\Users\86130\documents\visual studio 2013\Projects\library3\lb3\lb3.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\lb3.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt w32.cpp
+         w32.cpp
+     1>c:\users\86130\documents\visual studio 2013\projects\library3\lb3\w32.cpp(8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+       Lib:
+         D:\vs2013\VC\bin\Lib.exe /OUT:"c:\users\86130\documents\visual studio 2013\Projects\library3\Debug\lb3.lib" /NOLOGO Debug\stdafx.obj
+         Debug\w32.obj
+         lb3.vcxproj -> c:\users\86130\documents\visual studio 2013\Projects\library3\Debug\lb3.lib
+     1>已完成生成项目“c:\Users\86130\documents\visual studio 2013\Projects\library3\lb3\lb3.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.61
