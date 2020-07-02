@@ -1,0 +1,28 @@
+﻿生成启动时间为 2020/7/2 23:12:14。
+     1>项目“C:\Users\86130\Desktop\数据库课堂实验\MFCApplication2\MFCApplication2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\MFCApplication2.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\vs2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\MFCApplication2.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt MainFrm.cpp MFCApplication2.cpp MFCApplication2Doc.cpp MFCApplication2Set.cpp MFCApplication2View.cpp
+         MFCApplication2View.cpp
+         MFCApplication2Set.cpp
+         MFCApplication2Doc.cpp
+         MFCApplication2.cpp
+         MainFrm.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /Ix64\Debug\ /nologo /fo"x64\Debug\MFCApplication2.res" MFCApplication2.rc 
+       Link:
+         D:\vs2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\86130\Desktop\数据库课堂实验\x64\Debug\MFCApplication2.exe" /INCREMENTAL /NOLOGO odbc32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"C:\Users\86130\Desktop\数据库课堂实验\x64\Debug\MFCApplication2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\86130\Desktop\数据库课堂实验\x64\Debug\MFCApplication2.lib" /MACHINE:X64 x64\Debug\MFCApplication2.res
+         x64\Debug\MainFrm.obj
+         x64\Debug\MFCApplication2.obj
+         x64\Debug\MFCApplication2Doc.obj
+         x64\Debug\MFCApplication2Set.obj
+         x64\Debug\MFCApplication2View.obj
+         x64\Debug\stdafx.obj
+         MFCApplication2.vcxproj -> C:\Users\86130\Desktop\数据库课堂实验\x64\Debug\MFCApplication2.exe
+     1>已完成生成项目“C:\Users\86130\Desktop\数据库课堂实验\MFCApplication2\MFCApplication2.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.70
